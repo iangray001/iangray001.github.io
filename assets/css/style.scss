@@ -1,0 +1,80 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+body {
+	font-size: 20px;
+}
+
+a:hover {
+	font-weight: normal;
+}
+
+#toplinks {
+	text-align: right;
+}
+
+.foottext {
+	text-align: right;
+	color: #505060;
+}
+
+
+
+.foottext a {
+	font-size: 13px;
+	color: #929292;
+	text-decoration: none;
+	border-bottom: 1px solid transparent;
+	transition: all ease-in-out 0.3s;
+}
+
+.foottext a:hover {
+	color: #ffffff;
+	text-decoration: none;
+	border-color: white;
+}
+
+
+#toplinks {
+	color: #505060;
+	font-size: 25px;
+}
+
+.toplink {
+	font-size: 20px;
+	text-decoration: none;
+	border-bottom: 1px solid transparent;
+	transition: all ease-in-out 0.3s;
+}
+
+.toplink:hover {
+	color: #ffffff;
+	text-decoration: none;
+	border-color: white;
+}
+
+
+#mainmugshot {
+	display: block;
+	float: right;
+	margin-left: 30px;
+	width: 250px;
+	height: auto;
+	box-shadow: 0px 0px 6px black;
+	top: 5px; 
+}
+
+
+.fa-lg {
+	color: #667788;
+	transition: all ease-in-out 0.3s;
+	position: relative;
+	top:3px;
+}
+
+.fa-lg:hover {
+	color: #ffffff;
+}
+
